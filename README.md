@@ -1,1 +1,1 @@
-# Rijks-Museum-App
+# Rijksmuseum-App
