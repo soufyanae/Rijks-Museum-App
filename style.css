@@ -1,0 +1,50 @@
+html 	{
+	background-color:white;
+    background-image:
+    radial-gradient(midnightblue 9px, transparent 10px),        
+repeating-radial-gradient(midnightblue 0, midnightblue 4px, transparent 5px, transparent 20px, midnightblue 21px, midnightblue 25px, transparent 26px, transparent 50px);    
+background-size: 30px 30px, 90px 90px; 
+background-position: 0 0;
+	}
+
+
+body {
+    background: #F8F8FF;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.06);
+    color:#545454;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 2em 2em 4em;
+}
+
+h3 {
+    text-align: center;
+}
+
+.flagiconarea	{
+		width: 95px;
+		text-align: center;
+		float: left;
+		padding: 0px 0px 0px 0px;
+		}
+
+table, tr, td	{ border-collapse:collapse; border-spacing: 0; margin: 0; padding: 0; border: 0; }
+
+.td-right 	{ text-align: right; }
+
+.td-left 	{ text-align: left; }
+
+.td-center	{ text-align: center; }
+
+.td-middle	{ vertical-align: middle; }
+
+.td-top		{ vertical-align: top; }
+
+.center-div	{ margin-left: auto; margin-right: auto; }
+
+.left-div	{ margin-left: 0px; margin-right: auto; }
+
+.right-div	{ margin-left: auto; margin-right: 0px; }
