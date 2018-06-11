@@ -22,16 +22,26 @@ function populate() {
 function guess (id, guess) {
     var button = document.getElementById(id);
     button.onclick = function() {
+        alert("Ga door naar " + paint);
         quiz.guess(guess);
         populate();
     }
+   
 }
+
+
 
 function showProgress() {
     var currentQuestionsNumber = quiz.questionsIndex +1;
     var element = document.getElementById("progress");
-    element.innerHTML = "Question" + currentQuestionsNumber + " of " +quiz.questions.length;
-    
+    element.innerHTML = "Question " + currentQuestionsNumber + " of " +quiz.questions.length;
+        if (currentQuestionsNumber == 1) {
+            paint = "Rembrandt";
+        } else if (currentQuestionsNumber == 2) {
+            paint = "Vincent";
+        } else if (currentQuestionsNumber == 3) {
+            paint = "De Nachtwacht";
+        }
 }
 
 function showScores(){
