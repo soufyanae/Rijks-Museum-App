@@ -1,0 +1,39 @@
+var questions = [
+    
+    Catergorie Rembrandt:
+    new Question("Waar is Rembrandt geboren?", ["Middelburg", "Leiden", "Amsterdam", "Utrecht"], "Leiden"),
+    new Question("Wanneer was Rembrandt overleden?", ["1602", "1598", "1604", "1669"], "1669"),
+    new Question("Wat is Rembrandts beroemdste werk?", ["de Nachtwacht", "de staalmeesters", "het Joodse Bruidje", "de Soldaat"], "de Nachtwacht"),
+    new Question("Hoeveel kinderen had Rembrandt?", ["10", "3", "7", "4"], "4"),
+    new Question("Hoe heet Rembrandts eerste leerling?", ["Gerri Manhoef", "Jacob van der Wal", "Youssef van de Buurt", "Gerrit Dou"], "Gerrit Dou"),
+    new Question("Wie was Rembrandts eerste vrouw?", ["Monica", "Elizabeth", "Saskia", "Hendrickje"], "Saskia"),
+    new Question("In welke eeuw leefde Rembrandt?", ["15e", "16e", "17e", "18e"], "17e"),
+    new Question("Wat maakt de schilderijen van Rembrandt zo bijzonder?", ["Olieverf", "Waterverf", "Clair-obscur", "Natuur"], "Clair-obscur"),
+    new Question("Waar in Amsterdam woonde Rembrandt het langst?", ["Keizersgracht", "Rembrandtplein", "Jodenbreestraat", "Westermarkt"], "Jodenbreestraat"),
+    new Question("Wanneer is de Nachtwacht gemaakt?", ["1640-1642", "1615-1617", "1623-1625", "1634-1636"], "1640-1642"),
+    
+    Categorie Middeleeuwen:
+    new Question("In welke periode speelde de middeleeuwen zich af? ", ["1000-1300", "500-1500", "100-600", "1500-2000"], "500-1500"),
+    new Question("Wat stond centraal in de middeleeuwen? ", ["Geloof", "Geld", "Macht", "Oorlog"], "Geloof"),
+    new Question("Wie of wat zijn leenmannen? ", ["Bankier", "Herders", "Slaven", "Landheer"], "Landheer"),
+    new Question("Welk rijk was het grootste rijk in de middeleeuwen?", ["Byzantijnse Rijk", "Frankische Rijk", "Germaanse Rijk", "Romeinse Rijk"], "Romeinse Rijk"),
+    new Question("Wat betekent centralisatie? ", ["Hoofdstad benoemen", "Vanuit één punt besturen", "Meeting point", "Doelwit"], "Vanuit één punt besturen"),
+    new Question("Wie introduceerde de centralisatie? ", ["Karel de Grote", "Napoleon", "Lodewijk XIV", "Hendrickje"], "Karel de Grote"),
+    new Question("Waarom eindigde de vroege middeleeuwen? ", ["Armoede", "De pest", "Natuurramp", "Uiteenvallen feodale stelsel"], "Uiteenvallen feodale stelsel"),
+    new Question("Waardoor waren de reizen van kooplieden vaak gevaarlijk? ", ["Wilde dieren", "Dieven", "Soldaten", "Gevaarlijke ziektes"], "Dieven"),
+    new Question("Wat moesten kooplieden doen in ruil voor stadsrechten? ", ["Belasting betalen", "Het leger in", "Horigheid", "Paspoort aanvragen"], "Belasting betalen"),
+    new Question("Rond welk jaar in de middeleeuwen kwamen er veel steden bij? ", ["300", "1000", "1700", "650"], "1000"),
+    
+    
+    Categorie Gouden Eeuw:
+    new Question("Hoe wordt het jaar 1672 ook wel genoemd? ", ["Rampjaar", "Schrikkeljaar", "Droge jaar", "Geluksjaar"], "Rampjaar"),
+    new Question("Waarom wordt de 17e eeuw in Nederland ook wel de Gouden Eeuw genoemd?", ["Veel goudvondsten", "Verlichting en Rijkdom", "Vervolg Zilvere Eeuw", "Franse Revolutie bereikte Nederland"], "Verlichting en Rijkdom"),
+    new Question("Welk land was in de 17e eeuw het rijkst? ", ["Turkije", "Nederland", "Amerika", "Frankrijk"], "Nederland"),
+    new Question("Hoe lang duurde de oorlog tussen Nederland en Spanje dat eindigde in 1648", ["80 maanden", "80 weken", "80 jaar", "90 maanden"], "80 jaar"),
+    new Question("Hoe heet de vrede die in 1648 werd gesloten tussen Spanje en Nederland? ", ["Vrede van Munster", "Bevrijdingsdag", "Vrede van Dam", "Verdrag van Versailles"], "Vrede van Munster"),
+    new Question("Waardoor is Nederland succesvol geworden? ", ["Wetenschap", "Technologie", "Oorlog", "Handel"], "Handel"),
+    new Question("7.	De letters 'VOC' staan voor… ", ["Verlichting Onder Controle", "Verenigde Oost-Indische Compagnie", "Varen Onder Constatijn", "Ver Onder China"], "Verenigde Oost-Indische Compagnie"),
+    new Question("Hoe heet een van de bekendste schepen van de VOC?", ["Bali", "Nova Zembla", "Batavia", "Zilvervloot"], "Batavia"),
+    new Question("Wanneer is de VOC opgericht? ", ["1640", "1615", "1623", "1602"], "1602"),
+    new Question("Waar werd Johan van Oldenbarnevelt onthoofd", ["Dam", "Ridderzaal", "Eerste Kamer", "Gevangenis"], "Ridderzaal"),
+];
